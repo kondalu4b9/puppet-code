@@ -1,3 +1,7 @@
+Create a Redhat Linux 7.x OS with 2 Core and 6GB+ RAM.
+Create an Elastic IP and assign it to the server.
+Then Login to the Linux Instance.
+
     1  cd /opt/
     2  yum install -y wget >/dev/null
     3  wget "https://pm.puppet.com/cgi-bin/download.cgi?dist=el&rel=7&arch=x86_64&ver=latest" -O puppet.tar.gz
