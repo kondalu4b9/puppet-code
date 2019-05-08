@@ -1,0 +1,11 @@
+    1  cd /opt/
+    2  yum install -y wget >/dev/null
+    3  wget "https://pm.puppet.com/cgi-bin/download.cgi?dist=el&rel=7&arch=x86_64&ver=latest" -O puppet.tar.gz
+    4  ls -lh
+    5  tar zxf puppet.tar.gz
+    6  ls -l
+    7  cd puppet-enterprise-2019.1.0-el-7-x86_64/
+    8  ls
+    9. hostnamectl set-hostname <public address>
+   10. /puppet-enterprise-installer
+
